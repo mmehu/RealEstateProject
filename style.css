@@ -23,12 +23,12 @@
 
 h1 {
    font-family: nobel, sans-serif;
-   font-weight: 50;
+   font-weight: 40;
    font-style: normal;
 }
 
 h2 {
-    font-weight: 240;
+    font-weight: 200;
     font-style: normal;
     text-transform: uppercase;
 }
@@ -60,7 +60,10 @@ h2 {
 }
 
 section {
-    padding: 110px
+    padding: 140px 10% 90px;
+    position: relative;
+    height: 100vh;
+    min-height: 100vh;
 }
 
 /* 
