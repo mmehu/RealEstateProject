@@ -42,9 +42,22 @@ h2 {
     left: 0%;
     right: 0%; 
     position: fixed;
-    top: 2px;
+    top: 3px;
     z-index: 1000;
     margin: 20px;
+}
+
+.navlist a {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-left: 28px;
+    transition: all .50s ease;
+}
+
+.navlist a:hover {
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
 
 header {
@@ -61,6 +74,7 @@ header {
     transition: all .50s ease;
 }
 
+
 .nav-item:first-child {
     float: left; 
     font-weight: 500;
@@ -71,9 +85,9 @@ header {
     float: right;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -85,7 +99,11 @@ section {
     background-image: url();
 }
 
-.btn{
+.ri-menu-line {
+    font-size: 22px;
+}
+
+.btn {
     display: inline-block;
     padding: 11px 26px;
     background: var(--main-color);
@@ -96,11 +114,13 @@ section {
     font-weight: 600;
     transition: all .50s ease;
 }
+
 .btn:hover{
     background: transparent;
     color: var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+
 .btn2{
     background: transparent;
     color: var(--main-color);
@@ -108,6 +128,7 @@ section {
     margin-left: 15px;
     transition: all .50s ease;
 }
+
 .btn2:hover{
     background: var(--main-color);
     color: var(--bg-color);
