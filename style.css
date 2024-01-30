@@ -10,8 +10,8 @@
 }
 
 :root { 
-    --text-color: ;
-    --bg-color: ;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
     --second-bg-color: ;
     --main-color: ;   
     --other-color: #31383F;
@@ -19,6 +19,10 @@
     --h1-font: 4.5rem;
     --h2-font: 2.9rem;
     --p-font: 1rem;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
 }
 
 h1 {
@@ -109,4 +113,41 @@ section {
     60% {
         transform: translateY(-8px) rotate(45deg);
     }
+}
+
+/* Middle section */
+
+.middle {
+    height: 100vh;
+    width: 100%;
+    background: url(img/mockAI.png);
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.description-part {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 20px 0px 20px;
+    line-height: 1.2;
+}
+
+/* 
+.main-content h1{
+    font-size: var(--h1-font);
+    font-weight: 900;
+    margin: 20px 0px 20px;
+    line-height: 1.2;
+}
+.main-content h2{
+    font-size: var(--p-font);
+    font-weight: 400;
+    width: 620px;
+    max-width: 100%;
+    color: var(--other-color);
+    line-height: 30px;
+    margin-bottom: 15px;
 }
