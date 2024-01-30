@@ -12,7 +12,7 @@
 :root { 
     --text-color: #fff;
     --bg-color: #1b1f24;
-    --second-bg-color: ;
+    --second-bg-color: #ffc400e4;
     --main-color: #ffd700;   
     --other-color: #31383F;
 
@@ -74,6 +74,11 @@ header {
     transition: all .50s ease;
 }
 
+header.sticky {
+    background: var(--second-bg-color);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    padding: 16px 16%;
+}
 
 .nav-item:first-child {
     float: left; 
@@ -134,6 +139,10 @@ section {
     color: var(--bg-color);
 }
 
+.main-btn {
+    margin-top: 300px;
+}
+
 .arrow {
     border: solid black;
     border-color: #ffd700; /* b49d49 */
@@ -144,7 +153,6 @@ section {
     -webkit-transform: rotate(45deg);
     transition: 0.3s;
     animation: bounce 3s infinite;
-    margin: 20px;
 }
 
 .arrow:hover {
@@ -180,7 +188,7 @@ section {
 .description-part {
     font-size: 2rem;
     font-weight: 900;
-    margin: 20px 0px 20px;
+    margin: -150px 0px 20px;
     line-height: 1.2;
 }
 
