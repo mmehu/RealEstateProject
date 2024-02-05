@@ -172,7 +172,7 @@ section {
     }
 }
 
-/* Middle section */
+/* Hero section */
 
 .hero {
     height: 100vh;
@@ -185,17 +185,23 @@ section {
     justify-content: flex-start;
 }
 
+.main-content h1 {
+    font-size: 2.5rem;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 20px 0px 20px;
+    line-height: 1.2;
+}
+
+.main-content h2 
+
 .main-btn {
     text-align: left;
 }
 
-
-.description-part {
-    font-size: 2rem;
-    font-weight: 900;
-    margin: -150px 0px 20px;
-    line-height: 1.2;
-}
 
 .description-h2 {
     font-size: 1.5rem;
