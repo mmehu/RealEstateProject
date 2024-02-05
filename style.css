@@ -143,7 +143,7 @@ section {
 .hero {
     height: 100vh;
     width: 100%;
-    background: url(img/mockAI.png);
+    background: url(img/background-image.jpg);
     background-position: left;
     background-size: cover;
     display: flex;
@@ -210,19 +210,37 @@ section {
     margin-top: 550px;
 }
 
-/* 
-.main-content h1{
-    font-size: var(--h1-font);
-    font-weight: 900;
-    margin: 20px 0px 20px;
-    line-height: 1.2;
+/* Building Section */
+
+.image-container {
+    position: relative;
+    text-align: center; /* Center-align the title text */
 }
-.main-content h2{
-    font-size: var(--p-font);
+
+.image-title {
+    position: absolute;
+    top: 72%;
+    left: 13%; /* Position the title in the horizontal center */
+    font-size: 75px;
+    font-weight: 300;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    padding: 10px 20px; /* Add padding to the title */
+    border-radius: 5px; /* Add rounded corners to the title container */
+}
+
+.explore-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-container p {
+    font-size: 1.5rem;
     font-weight: 400;
     width: 620px;
     max-width: 100%;
-    color: var(--other-color);
+    color: var(--text-color);
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
