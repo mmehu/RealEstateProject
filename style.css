@@ -22,7 +22,7 @@
 }
 body{
     color: var(--text-color);
-    background: var(--other-color);
+    background: var(--text-color);
 }
 
 h1 {
@@ -45,7 +45,7 @@ h2 {
     top: 3px;
     z-index: 1000;
     margin: 20px;
-    line-height: 70px;
+    line-height: 40px;
     padding: 0px 30px;
     position: fixed;
 }
@@ -59,7 +59,7 @@ h2 {
 }
 
 .navlist a:hover {
-    color: var(--main-color);
+    color: var(--text-color);
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
 
@@ -79,8 +79,11 @@ header {
 
 header.sticky {
     background: var(--second-bg-color);
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
-    padding: 16px 16%;
+    box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
+    padding: 45px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-item:first-child {
@@ -237,6 +240,7 @@ section {
     align-items: center;
     font-weight: 100;
     initial-letter: 1px;
+    color: var(--bg-color)
 }
 
 .explore-container p {
