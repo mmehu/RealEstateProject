@@ -270,6 +270,14 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
+.container-building {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 75px;
+}
+
+
 .image-title {
     position: absolute;
     top: 68%;
@@ -352,7 +360,6 @@ section {
     display: flex;
     justify-content: space-between;
     margin-top: 75px;
-  
 }
 
 .image-title2 {
@@ -362,13 +369,13 @@ section {
 .explore-container2 {
     padding: 50px;
     margin-top: 60px;
+    text-align: center;
 }
 
 .explore-container2 p {
     color: var(--text-color);
     font-size: 20px;
 }
-
 
 .explore-container2 a {
     font-size: 20px;
