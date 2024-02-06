@@ -5,6 +5,8 @@ window.addEventListener ("scroll", function() {
 });
 
 
+/* 
 function show() {
     document.getElementById('sidebar').classList.toggle('active');
 }
+*/
