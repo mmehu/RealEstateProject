@@ -334,3 +334,14 @@ section {
     color: var(--main-color);
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
+
+/* Residences */
+
+.residences {
+    height: 85vh;
+    width: 120% 0 0 120%;
+    background: url(img/livingroom-set.png);
+    background-position: left;
+    background-size: cover;
+  }
+  
