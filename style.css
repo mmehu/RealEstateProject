@@ -14,13 +14,13 @@
     --bg-color: #1b1f24;
     --second-bg-color: #ffc400e4;
     --main-color: #ffd700;   
-    --other-color: #31383F;
+    --other-color: #3c464f;
 
     --h1-font: 4.5rem;
     --h2-font: 2.9rem;
     --p-font: 1rem;
 }
-body{
+body {
     color: var(--text-color);
     background: var(--text-color);
 }
@@ -50,6 +50,10 @@ h2 {
     position: fixed;
 }
 
+.nav-item.logo {
+    margin-bottom: 50px;
+}
+
 .navlist a {
     font-size: var(--p-font);
     font-weight: 500;
@@ -59,7 +63,7 @@ h2 {
 }
 
 .navlist a:hover {
-    color: var(--text-color);
+    color: var(--main-color);
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
 
@@ -72,13 +76,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 16%;
+    padding: 35px 16%;
     background: transparent;
     transition: all .50s ease;
 }
 
 header.sticky {
-    background: var(--second-bg-color);
+    background: var(--other-color);
     box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
     padding: 45px 0;
     position: fixed;
@@ -225,12 +229,12 @@ section {
 
 .image-title {
     position: absolute;
-    top: 72%;
+    top: 68%;
     left: 13%; /* Position the title in the horizontal center */
     font-size: 75px;
-    font-weight: 300;
+    font-weight: 90;
     color: var(--text-color);
-    letter-spacing: 2px;
+    letter-spacing: 2.8px;
     padding: 10px 20px; /* Add padding to the title */
     border-radius: 5px; /* Add rounded corners to the title container */
 }
@@ -238,16 +242,34 @@ section {
 .explore-container {
     display: flex;
     align-items: center;
-    font-weight: 100;
+    font-weight: 90;
     initial-letter: 1px;
-    color: var(--bg-color)
+    color: var(--bg-color);
 }
 
 .explore-container p {
     font-size: 20px;
     margin: 0;
     padding: 15px; /* Add padding to create space around the text */
-    width: 35%;
+    width: 45%;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.explore-container a {
+    font-size: 20px;
+    margin: 0;
+    padding: 8px; /* Add padding to create space around the text */
+    color: var(--bg-color);
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: none; /* Remove the default underline */
+    position: relative; /* Add relative positioning for pseudo-element */
+}
+
+.explore-container a:hover {
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
 
 .explore-container p:first-child {
@@ -258,3 +280,18 @@ section {
     margin-left: 30px; /* Add some margin to separate the two paragraphs */
 }
 
+.explore-container a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px; /* Set the height of the underline */
+    background-color: var(--main-color); /* Set the underline color to yellow */
+    position: absolute;
+    bottom: 0; /* Adjust this value to control the space between the word and underline */
+    left: 0;
+}
+
+.explore-container a:hover {
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+}
