@@ -14,7 +14,7 @@
     --bg-color: #1b1f24;
     --second-bg-color: #ffc400e4;
     --main-color: #ffd700;   
-    --other-color: #3c464f;
+    --other-color: #474747;
 
     --h1-font: 4.5rem;
     --h2-font: 2.9rem;
@@ -266,6 +266,10 @@ section {
     text-align: center; /* Center-align the title text */
 }
 
+.image-container img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
 .image-title {
     position: absolute;
     top: 68%;
@@ -337,11 +341,71 @@ section {
 
 /* Residences */
 
-.residences {
-    height: 85vh;
-    width: 120% 0 0 120%;
-    background: url(img/livingroom-set.png);
-    background-position: left;
-    background-size: cover;
-  }
+#residences {
+    background-color: var(--other-color);
+}
+
+.residences img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.container-residences {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
   
+}
+
+.image-title2 {
+    color: var(--text-color);
+}
+  
+.explore-container2 {
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.explore-container2 p {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+
+.explore-container2 a {
+    font-size: 20px;
+    margin: 0;
+    padding: 8px; /* Add padding to create space around the text */
+    color: var(--text-color);
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: none; /* Remove the default underline */
+    position: relative; /* Add relative positioning for pseudo-element */
+}
+
+.explore-container2 a:hover {
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+}
+
+.explore-container2 p:first-child {
+    flex: 1; /* Allow the first paragraph to grow and take available space */
+}
+
+.explore-container2 p:last-child {
+    margin-left: 30px; /* Add some margin to separate the two paragraphs */
+}
+
+.explore-container2 a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px; /* Set the height of the underline */
+    background-color: var(--main-color); /* Set the underline color to yellow */
+    position: absolute;
+    bottom: 0; /* Adjust this value to control the space between the word and underline */
+    left: 0;
+}
+
+.explore-container2 a:hover {
+    color: var(--main-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+}
