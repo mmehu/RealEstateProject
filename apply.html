@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apply Now | Rental Application Form</title>
+        <link rel="icon" href="./img/Logo2.png">
+        <link rel="stylesheet" href="./apply.css">
+    
+        <!--remix icons link-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    </head>
+
+<body>
+    <h2>RESIDENTIAL RENTAL APPLICATION</h2>
+    <p>For inquiries about the rental property, please contact: Lloyd Lejeune at: Phone: 617-653-8725</p>
+
+    <h3>RENTAL PROPERTY</h3>
+    <p>Rental Property Address: 265 John Street, Fall River, MA 02721</p>
+    <p>Lease will start on May 1, 2023</p>
+
+    <h3>APPLICANT'S PERSONAL INFORMATION</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="home_phone">Home Phone:</label>
+        <input type="tel" id="home_phone" name="home_phone"><br><br>
+        
+        <label for="alt_phone">Alternative Phone:</label>
+        <input type="tel" id="alt_phone" name="alt_phone"><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+    </form>
+
+    <h3>CO-APPLICANT’S PERSONAL INFORMATION (if applicable)</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="home_phone">Home Phone:</label>
+        <input type="tel" id="home_phone" name="home_phone"><br><br>
+        
+        <label for="alt_phone">Alternative Phone:</label>
+        <input type="tel" id="alt_phone" name="alt_phone"><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+    </form>
+
+    <h3>OTHER OCCUPANTS’ INFORMATION (if applicable)</h3>
+   <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="relation">Relation to Applicant:</label>
+        <input type="relation" id="relation" name="relation"> 
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="relation">Relation to Applicant:</label>
+        <input type="relation" id="relation" name="relation"> 
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+    </form>
+
+    <h3>RENTAL HISTORY</h3>
+    <p>I. <b>Current Residence</b></p>
+
+    <label for="current_address">Current Address:</label>
+    <input type="text" id="current_address" name="current_address"><br><br>
+
+    <label for="residing_duration">How long have you been residing at this address?</label>
+    <input type="text" id="residing_duration" name="residing_duration"><br><br>
+
+    <label for="monthly_rent">Monthly Rent:</label>
+    <input type="text" id="monthly_rent" name="monthly_rent"><br><br>
+
+    <label for="current_landlord_name">Landlord's Name:</label>
+    <input type="text" id="current_landlord_name" name="current_landlord_name"><br><br>
+
+    <label for="current_landlord_contact">Landlord's Contact Number:</label>
+    <input type="tel" id="current_landlord_contact" name="current_landlord_contact"><br><br>
+
+    <label for="reason_for_leaving_current">Reason(s) for leaving this property:</label><br>
+    <textarea id="reason_for_leaving_current" name="reason_for_leaving_current" rows="4" cols="50"></textarea><br><br>
+
+    <p>II. <b>Previous Residence (if applicable)</b></p>
+
+    <label for="previous_address">Previous Address:</label>
+    <input type="text" id="previous_address" name="previous_address"><br><br>
+
+    <label for="previous_residence_duration">How long did you stay at this address?</label>
+    <input type="text" id="previous_residence_duration" name="previous_residence_duration"><br><br>
+
+    <label for="previous_monthly_rent">Monthly Rent:</label>
+    <input type="text" id="previous_monthly_rent" name="previous_monthly_rent"><br><br>
+
+    <label for="previous_landlord_name">Landlord's Name:</label>
+    <input type="text" id="previous_landlord_name" name="previous_landlord_name"><br><br>
+
+    <label for="previous_landlord_contact">Landlord's Contact Number:</label>
+    <input type="tel" id="previous_landlord_contact" name="previous_landlord_contact"><br><br>
+
+    <label for="reason_for_leaving_previous">Reason(s) for leaving this property:</label><br>
+    <textarea id="reason_for_leaving_previous" name="reason_for_leaving_previous" rows="4" cols="50"></textarea><br><br>
+
+    <label for="evicted">Have you ever been evicted from a rental residence?</label>
+    <input type="radio" id="evicted_yes" name="evicted" value="yes">
+    <label for="evicted_yes">Yes</label>
+    <input type="radio" id="evicted_no" name="evicted" value="no">
+    <label for="evicted_no">No</label><br><br>
+
+    <label for="missed_payments">Have you missed two or more rental payments in the past 12 months?</label>
+    <input type="radio" id="missed_payments_yes" name="missed_payments" value="yes">
+    <label for="missed_payments_yes">Yes</label>
+    <input type="radio" id="missed_payments_no" name="missed_payments" value="no">
+    <label for="missed_payments_no">No</label><br><br>
+
+    <label for="refused_to_pay">Have you ever refused to pay rent when due?</label>
+    <input type="radio" id="refused_to_pay_yes" name="refused_to_pay" value="yes">
+    <label for="refused_to_pay_yes">Yes</label>
+    <input type="radio" id="refused_to_pay_no" name="refused_to_pay" value="no">
+    <label for="refused_to_pay_no">No</label><br><br>
+
+    <label for="reasons_for_yes">If you have answered YES to any of the above, please state your reasons and/or circumstances:</label><br>
+    <textarea id="reasons_for_yes" name="reasons_for_yes" rows="4" cols="50"></textarea><br><br>
+
+
+    <h3>EMPLOYMENT DETAILS</h3>
+
+    <p>I. <b>Current Employment</b></p>
+
+    <label for="employment_status">Employment Status:</label><br>
+    <input type="checkbox" id="full_time" name="employment_status" value="full_time">
+    <label for="full_time">Full-Time</label><br>
+    <input type="checkbox" id="part_time" name="employment_status" value="part_time">
+    <label for="part_time">Part-time</label><br>
+    <input type="checkbox" id="student" name="employment_status" value="student">
+    <label for="student">Student</label><br>
+    <input type="checkbox" id="unemployed" name="employment_status" value="unemployed">
+    <label for="unemployed">Unemployed</label><br>
+    <input type="checkbox" id="retired" name="employment_status" value="retired">
+    <label for="retired">Retired</label><br><br>
+    
+    <label for="current_employer">Current Employer:</label>
+    <input type="text" id="current_employer" name="current_employer"><br><br>
+    
+    <label for="supervisor_name">Supervisor's Name:</label>
+    <input type="text" id="supervisor_name" name="supervisor_name"><br><br>
+    
+    
+    
+    
+    <h3>PROOF OF INCOME</h3>
+    <p>The applicant is required to attach proof of their income to this rental application form. Acceptable documentation includes pay stubs, employer’s letter/certificate, bank statements or copies of the previous year’s tax return.</p>
+
+    <h3>ADDITIONAL INFORMATION</h3>
+    <p>I. <b>PETS:</b> <br><br>The Landlord does not allow pets in the rental property.</p>
+    <p>II. <b>SMOKING:</b> <br><br>The Landlord does not allow smoking of cigarettes in the rental property.</p>
+    <p>III. <b>WATERBEDS:</b> <br><br>The Landlord does not allow the use of waterbeds on the premises.</p>
+
+    <br>
+    <p>I declare that the information I have provided is true and correct, and contain no misrepresentations. If misrepresentations are found after a residential lease agreement is entered into between the Landlord and Applicant, the Landlord shall have the option to terminate the residential lease agreement and seek all available remedies.</p>
+
+    <p>The Applicant authorizes the Landlord to verify all references and facts, including but not limited to current and previous landlords, employers and personal references. The Applicant understands that incomplete or incorrect information provided in the application may cause a delay in processing or may result in the denial of application.</p>
+
+    <form>
+        <label for="applicant_signature">Applicant's Signature:</label>
+        <input type="text" id="applicant_signature" name="applicant_signature">
+        
+        <label for="applicant_date">Date:</label>
+        <input type="date" id="applicant_date" name="applicant_date"><br><br>
+        
+        <label for="co_applicant_signature">Co-Applicant's Signature:</label>
+        <input type="text" id="co_applicant_signature" name="co_applicant_signature">
+        
+        <label for="co_applicant_date">Date:</label>
+        <input type="date" id="co_applicant_date" name="co_applicant_date"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
+
+
+
+</body>
