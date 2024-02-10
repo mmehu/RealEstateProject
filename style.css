@@ -13,7 +13,7 @@
     --text-color: #fff;
     --bg-color: #1b1f24;
     --second-bg-color: #ffc400e4;
-    --main-color: #ffd700;   
+    --main-color: #a9903c;   
     --other-color: #474747;
 
     --h1-font: 4.5rem;
@@ -37,7 +37,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Nav */
+/* Nav bar */
 #nav {
     left: 0%;
     right: 0%; 
@@ -50,9 +50,12 @@ h2 {
     position: fixed;
 }
 
-.nav-item.logo {
-    margin-bottom: 50px;
+
+.nav-item.right.logo img {
+    height: 100px; /* Adjust the height of the logo */
+    padding-bottom: 50px;
 }
+
 
 .navlist a {
     font-size: var(--p-font);
@@ -63,8 +66,8 @@ h2 {
 }
 
 .navlist a:hover {
-    color: var(--main-color);
-    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+    color: var(--text-color);
+    text-shadow: 3px 3px 20px var(--text-color), -2px 1px 30px var(--text-color);
 }
 
 header {
@@ -121,7 +124,7 @@ section {
 
 .arrow {
     border: solid black;
-    border-color: #ffd700; /* b49d49 */
+    border-color: var(--main-color); /* b49d49 */
     border-width: 0 3.5px 3.5px 0;
     display: inline-block;
     padding: 16px;
@@ -223,12 +226,7 @@ section {
 
 /* Building Section */
 #building {
-    background-color: #f9f9f9; /* Light off-white color */
-background-image: 
-  linear-gradient(to right, rgba(255, 255, 255, 0.4) 50%, transparent 50%),
-  linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 50%, transparent 50%);
-background-size: 20px 20px; /* Adjust the size of the linear gradients */
-
+    background-image: url('img/cd\ pattern.jpg'); 
 }
 
 .image-container {
@@ -313,7 +311,8 @@ background-size: 20px 20px; /* Adjust the size of the linear gradients */
 /* Residences */
 
 #residences {
-    background-color: var(--other-color);
+    /* background-color: var(--other-color); */
+    background-image: url('img/cd\ grey\ pattern.jpg');
 }
 
 .residences {
@@ -381,6 +380,10 @@ background-size: 20px 20px; /* Adjust the size of the linear gradients */
 
 
 /* Amenities section */
+
+#amenities {
+    background-image: url('img/cd\ pattern.jpg'); 
+}
 
 .amenities {
     position: relative;
@@ -463,7 +466,8 @@ background-size: 20px 20px; /* Adjust the size of the linear gradients */
 /* Neighborhood */
 
 #neighborhood {
-    background-color: var(--other-color);
+    /* background-color: var(--other-color); */
+    background-image: url('img/cd\ grey\ pattern.jpg');
 }
 
 .neighborhood {
