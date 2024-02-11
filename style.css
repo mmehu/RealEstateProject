@@ -234,7 +234,7 @@ section {
 }
 
 .arrow {
-    margin: 210px 150px 0px 180px;
+    margin: 250px 150px 0px 130px;
     margin-top: 550px;
 }
 
@@ -243,9 +243,11 @@ section {
     background-image: url('img/cd\ pattern.jpg'); 
 }
 
+
+/* 
 .image-container {
     position: relative;
-    text-align: center; /* Center-align the title text */
+    text-align: center; /* Center-align the title text 
 }
 
 /* .image-container img {
@@ -253,7 +255,7 @@ section {
 
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
    /* clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%); 
-} */
+}
 
 @keyframes pulse {
     0% {
@@ -268,8 +270,10 @@ section {
   }
   
 .image-container img{
-    animation: pulse 2s infinite alternate; /* Adjust the duration and other parameters as needed */
+    animation: pulse 2s infinite alternate; /* Adjust the duration and other parameters as needed
 }
+
+*/
 
 .container-building {
     display: flex;
