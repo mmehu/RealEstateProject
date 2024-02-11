@@ -42,9 +42,9 @@ h2 {
     left: 0%;
     right: 0%; 
     position: fixed;
-    top: 3px;
-    z-index: 1000;
+    top: -45px; /* was 3px */
     margin: 20px;
+    z-index: 1000;
     line-height: 40px;
     padding: 0px 30px;
     position: fixed;
@@ -52,22 +52,22 @@ h2 {
 
 
 .nav-item.right.logo img {
-    height: 100px; /* Adjust the height of the logo */
-    padding-bottom: 50px;
+   /* height: 100px; /* Adjust the height of the logo */
+   /* padding-bottom: 50px; */
+    width: 20em;
 }
-
 
 .navlist a {
     font-size: var(--p-font);
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--text-color); /* was text color */
     margin-left: 28px;
     transition: all .50s ease;
 }
 
 .navlist a:hover {
-    color: var(--text-color);
-    text-shadow: 3px 3px 20px var(--text-color), -2px 1px 30px var(--text-color);
+    color: var(--second-bg-color); /* was text color */
+    text-shadow: 3px 3px 20px var(--bg-color), -2px 1px 30px var(--bg-color);
 }
 
 header {
@@ -84,8 +84,14 @@ header {
     transition: all .50s ease;
 }
 
+/*.logo {
+    font-size: 36px;
+    color: var(--text-color);
+    font-weight: 600;
+}*/
+
 header.sticky {
-    background: var(--other-color);
+    background: linear-gradient(to right, white, grey);; /* was other color */
     box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
     padding: 45px 0;
     position: fixed;
@@ -109,6 +115,14 @@ header.sticky {
     font-weight: 500;
 }
 
+.nav-item.right {
+    padding-bottom: 40px;
+}
+
+.nav-item.left {
+    padding-top: 50px;
+}
+
 section {
     padding: 140px 10% 90px;
     position: relative;
@@ -124,7 +138,7 @@ section {
 
 .arrow {
     border: solid black;
-    border-color: var(--main-color); /* b49d49 */
+    border-color: var(--text-color); /* b49d49 */
     border-width: 0 3.5px 3.5px 0;
     display: inline-block;
     padding: 16px;
@@ -312,7 +326,8 @@ section {
 
 #residences {
     /* background-color: var(--other-color); */
-    background-image: url('img/cd\ grey\ pattern.jpg');
+   /* background-image: url('img/cd\ grey\ pattern.jpg'); */
+   background-image: url('img/cd\ pattern.jpg'); 
 }
 
 .residences {
@@ -338,7 +353,7 @@ section {
     }
   }
   
-  .residences img{
+.residences img{
     animation: pulse 2s infinite alternate; /* Adjust the duration and other parameters as needed */
 }
   
@@ -352,7 +367,7 @@ section {
 .image-title2 {
     font-size: 45px;
     font-weight: 90;
-    color: var(--text-color);
+    color: var(--other-color);
     letter-spacing: 2.8px;
     padding: 10px 20px; /* Add padding to the title */
     border-radius: 5px; 
@@ -368,7 +383,7 @@ section {
 }
 
 .explore-container2 p {
-    color: var(--text-color);
+    color: var(--other-color);
     font-size: 20px;
     margin: 0;
     padding: 35px; /* Add padding to create space around the text */
