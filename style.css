@@ -545,3 +545,12 @@ section {
     letter-spacing: 2.5px;
     font-weight: 500;
 }
+
+/* Footer section */
+
+#footer {
+	height: 6em;
+	text-align: center;
+	color: var(--bg-color);
+    margin-top: 20px;
+}
