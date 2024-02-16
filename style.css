@@ -91,7 +91,7 @@ header {
 }*/
 
 header.sticky {
-    background: linear-gradient(to right, white, grey);; /* was other color */
+    background: linear-gradient(to right, white, grey); /* was other color */
     box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
     padding: 45px 0;
     position: fixed;
