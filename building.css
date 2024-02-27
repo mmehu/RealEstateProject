@@ -203,10 +203,38 @@ section {
     background-image: url('img/cd\ pattern.jpg'); 
 }
 
-.title {
+.home {
     color: var(--other-color);
+    font-size: 50px;
+    text-align: center;
 }
 
-.description {
+.description-first {
+    color: var(--other-color);
+    text-align: center;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+
+.second .welcome {
+    color: var(--other-color);
+    margin-bottom: auto; /* Pushes the h1 text to the top */
+}
+
+.welcome {
+    color: var(--other-color);
+    padding-top: 100px;
+}
+
+.description-second {
     color: var(--other-color);
 }
