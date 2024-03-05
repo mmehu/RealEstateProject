@@ -60,13 +60,13 @@ h2 {
 .navlist a {
     font-size: var(--p-font);
     font-weight: 500;
-    color: var(--text-color); /* was text color */
+    color: var(--bg-color); /* was text color */
     margin-left: 28px;
     transition: all .50s ease;
 }
 
 .navlist a:hover {
-    color: var(--second-bg-color); /* was text color */
+    color: var(--text-color); /* was text color */
     text-shadow: 3px 3px 20px var(--bg-color), -2px 1px 30px var(--bg-color);
 }
 
@@ -85,7 +85,7 @@ header {
 }
 
 header.sticky {
-    background: linear-gradient(to top, white, grey); /* was other color */
+    background: var(--text-color); /* was other color */
     box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
     padding: 45px 0;
     position: fixed;
@@ -356,13 +356,13 @@ section {
 }
 
 .next-home:hover {
-    color: var(--bg-color);
-    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--main-color);
+    background-color: var(--text-color);
+    border-radius: 0% 50%;
 }
 
 .next-residences:hover {
-    color: var(--bg-color); /* was text color */
-    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--main-color);
+    background-color: var(--text-color);
+    border-radius: 0% 50%;
 }
 
 /* Footer section */
