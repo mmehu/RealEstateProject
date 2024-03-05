@@ -338,9 +338,29 @@ section {
 .ri-arrow-right-double-line {
     font-size: 50px;
     color: var(--main-color);
+    transition: transform 0.3s ease;
 }
 
 .ri-arrow-left-double-line {
     font-size: 50px;
     color: var(--main-color);
+    transition: transform 0.3s ease;
+}
+
+.ri-arrow-left-double-line:hover {
+    transform: translateX(-5px);
+}
+
+.ri-arrow-right-double-line:hover {
+    transform: translateX(5px);
+}
+
+.next-home:hover {
+    color: var(--bg-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--main-color);
+}
+
+.next-residences:hover {
+    color: var(--bg-color); /* was text color */
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--main-color);
 }
