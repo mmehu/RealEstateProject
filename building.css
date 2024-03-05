@@ -229,25 +229,74 @@ section {
     display: flex;
     align-items: center;
     margin-top: 160px;
-    margin-right: 150px;
+    margin-right: 100px;
     padding-bottom: 90px;
 }
+
+.second .content {
+    margin-right: 130px; /* Adjusted margin */
+}
+
+.content .welcome {
+    margin-left: 170px;
+}
+
+.content .description-second {
+    margin-left: 170px;
+}
+
 .second .welcome {
-    margin-bottom: auto; /* Pushes the h1 text to the top */
-    font-size: 50px;
+    margin-bottom: 40px; /* Adjusted margin */
+    font-size: 60px;
 }
 
 .welcome {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center;
-    color: var(--other-color);
+    color: var(--main-color);
+    letter-spacing: 2.5px;
+    font-weight: 80;
     font-size: 50px;
     padding-top: 20px;
-    margin-right: 45px;
 }
 
 .description-second {
     color: var(--other-color);
-    margin-right: 200px;
+    line-height: 1.5;
+}
+
+/* third */
+
+.third {
+    margin-top: 10px;
+    margin-right: 80px;
+    padding-bottom: 90px;
+}
+
+.third-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px; /* Adjusted maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.content2 .title-lumen {
+    margin-right: 150px; /* Adjusted margin */
+    margin-left: 90px;
+}
+
+.content2 .description-third {
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+.third .title-lumen {
+    margin-bottom: 40px; /* Adjusted margin */
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+.description-third {
+    color: var(--other-color);
+    line-height: 1.5;
 }
