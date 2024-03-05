@@ -561,6 +561,7 @@ section {
 	text-align: center;
 	color: var(--bg-color);
     margin-top: 20px;
+}
   /*  background-image: url('img/cd\ pattern.jpg'); 
 }
 
@@ -595,7 +596,7 @@ section {
 
 .footer-email:hover {
     color: var(--main-color);
- }
+}
 
 
 .terms {
@@ -616,7 +617,7 @@ section {
 
 .privacy:hover {
     color: var(--main-color);
- }
+}
 
 .sitemap {
     text-decoration: underline;
@@ -626,7 +627,7 @@ section {
 
 .sitemap:hover {
     color: var(--main-color);
- }
+}
 
 
 .accessibility {
