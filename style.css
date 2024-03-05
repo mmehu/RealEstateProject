@@ -60,13 +60,21 @@ h2 {
 .navlist a {
     font-size: var(--p-font);
     font-weight: 500;
-    color: var(--text-color); /* was text color */
+    color: var(--bg-color); /* was text color */
     margin-left: 28px;
     transition: all .50s ease;
 }
 
+/* 
+
+.navlist a.sticky {
+    color: var(--bg-color); /* was text color 
+    text-shadow: 3px 3px 20px var(--bg-color), -2px 1px 30px var(--bg-color);
+}
+*/ 
+
 .navlist a:hover {
-    color: var(--second-bg-color); /* was text color */
+    color: var(--text-color); /* was text color */
     text-shadow: 3px 3px 20px var(--bg-color), -2px 1px 30px var(--bg-color);
 }
 
@@ -91,7 +99,7 @@ header {
 }*/
 
 header.sticky {
-    background: linear-gradient(to top, white, grey); /* was other color */
+    background: var(--text-color); /* was other color */
     box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
     padding: 45px 0;
     position: fixed;
@@ -554,3 +562,71 @@ section {
 	color: var(--bg-color);
     margin-top: 20px;
 }
+
+.ft2 {
+    padding-top: 20px;
+}
+
+.ft3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.standard {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.standard:hover {
+    color: var(--main-color);
+ }
+
+.footer-email {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.footer-email:hover {
+    color: var(--main-color);
+ }
+
+
+.terms {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.terms:hover {
+   color: var(--main-color);
+}
+
+.privacy {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.privacy:hover {
+    color: var(--main-color);
+ }
+
+.sitemap {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.sitemap:hover {
+    color: var(--main-color);
+ }
+
+
+.accessibility {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.accessibility:hover {
+    color: var(--main-color);
+ }
