@@ -561,7 +561,13 @@ section {
 	text-align: center;
 	color: var(--bg-color);
     margin-top: 20px;
+  /*  background-image: url('img/cd\ pattern.jpg'); 
 }
+
+.ft1 {
+    background-image: url('img/cd\ grey\ pattern.jpg'); 
+}
+*/
 
 .ft2 {
     padding-top: 20px;
@@ -570,6 +576,7 @@ section {
 .ft3 {
     padding-top: 10px;
     padding-bottom: 20px;
+  /*  background-image: url('img/cd\ pattern.jpg'); */
 }
 
 .standard {
@@ -629,4 +636,18 @@ section {
 
 .accessibility:hover {
     color: var(--main-color);
- }
+}
+
+.slash-one {
+    padding-right: 8px;
+}
+
+.slash-two {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.slash-three {
+    padding-right: 8px;
+    padding-left: 8px;
+}

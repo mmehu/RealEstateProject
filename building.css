@@ -364,3 +364,101 @@ section {
     color: var(--bg-color); /* was text color */
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--main-color);
 }
+
+/* Footer section */
+
+#footer {
+	height: 6em;
+	text-align: center;
+	color: var(--bg-color);
+    margin-top: 20px;
+  /*  background-image: url('img/cd\ pattern.jpg'); 
+}
+
+.ft1 {
+    background-image: url('img/cd\ grey\ pattern.jpg'); 
+}
+*/
+
+.ft2 {
+    padding-top: 20px;
+}
+
+.ft3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  /*  background-image: url('img/cd\ pattern.jpg'); */
+}
+
+.standard {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.standard:hover {
+    color: var(--main-color);
+ }
+
+.footer-email {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.footer-email:hover {
+    color: var(--main-color);
+ }
+
+
+.terms {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.terms:hover {
+   color: var(--main-color);
+}
+
+.privacy {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.privacy:hover {
+    color: var(--main-color);
+ }
+
+.sitemap {
+    text-decoration: underline;
+    padding-right: 20px;
+    color: var(--bg-color);
+}
+
+.sitemap:hover {
+    color: var(--main-color);
+ }
+
+
+.accessibility {
+    text-decoration: underline;
+    color: var(--bg-color);
+}
+
+.accessibility:hover {
+    color: var(--main-color);
+}
+
+.slash-one {
+    padding-right: 8px;
+}
+
+.slash-two {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.slash-three {
+    padding-right: 8px;
+    padding-left: 8px;
+}
